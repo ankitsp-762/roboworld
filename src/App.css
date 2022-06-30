@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
-}
+@font-face {
+    font-family: 'Auto Techno Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Auto Techno Regular'), url('auto-techno.woff') format('woff');
+    }
+    
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+    @font-face {
+    font-family: 'Auto Techno Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Auto Techno Italic'), url('auto-techno italic.woff') format('woff');
+    }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+h1{
+    font-family: 'Auto Techno Italic';
+    color: rgb(12, 11, 12);
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+}   
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* media query */
+@media screen and (max-width:1024px) {
+
+    .heading{
+        overflow: hidden;
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:600px) {
+
+    .heading{
+        overflow: hidden;
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:360px) {
+
+    .heading{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:240px) {
+
+    .heading{
+        font-size: 20px;
+    }
 }
