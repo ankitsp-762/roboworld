@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/roboworld/static/css/main.de5ab550.css",
+    "main.js": "/roboworld/static/js/main.d32b8956.js",
+    "static/js/787.207cc084.chunk.js": "/roboworld/static/js/787.207cc084.chunk.js",
+    "static/media/auto-techno italic.woff": "/roboworld/static/media/auto-techno italic.b8ceaac70ace03df658f.woff",
+    "static/media/auto-techno.woff": "/roboworld/static/media/auto-techno.399575528c0e93212321.woff",
+    "index.html": "/roboworld/index.html",
+    "main.de5ab550.css.map": "/roboworld/static/css/main.de5ab550.css.map",
+    "main.d32b8956.js.map": "/roboworld/static/js/main.d32b8956.js.map",
+    "787.207cc084.chunk.js.map": "/roboworld/static/js/787.207cc084.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de5ab550.css",
+    "static/js/main.d32b8956.js"
+  ]
+}
